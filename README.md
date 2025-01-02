@@ -61,3 +61,25 @@ docker-compose up
 ```
 
 This will start all the modules, including the database, message broker, and tracing system.
+
+### Accessing Services
+
+To register a customer, you can use swagger-ui to interact with the Customer module:
+
+http://localhost:8080/swagger-ui.html#/customer-controller
+
+You can access the Postgres database using PgAdmin:
+
+http://localhost:5050
+
+The Eureka server dashboard can be accessed at:
+
+http://localhost:8761
+
+The Zipkin dashboard can be accessed at:
+
+http://localhost:9411
+
+RabbitMQ management UI can be accessed at:
+
+http://localhost:15672
