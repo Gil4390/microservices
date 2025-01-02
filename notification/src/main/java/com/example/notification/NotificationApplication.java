@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(
         scanBasePackages = {
                 "com.example.notification",
-                "com.example.",
+                "com.example.amqp",
         }
 )
 public class NotificationApplication {
